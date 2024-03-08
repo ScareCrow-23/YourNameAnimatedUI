@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name</title>
+    <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div id="nav"><img src="Logo.png" alt="">
+        <div id="nav-part2">
+            <a href="#page2">Main Characters</a>
+            <a href="#page3">Characters</a>
+        </div>
+    </div>
+    <div id="cursor"></div>
+    <div id="main">
+        <div id="page1">
+            <h1>Kimi</h1>
+            <h1>No Na Wa</h1>
+            <div id="video-container">
+                <div id="play">PLAY</div>
+                <video autoplay loop muted src="Kimi No Nawa (164).mp4"></video>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="2" src="Taki.jpg" alt="">
+                <div class="dets"></div>
+            </div>
+            <div id="elem2" class="elem">
+                <img data-scroll data-scroll-speed="2" src="Taki and Mitsuha.jpg" alt="">
+                <div class="dets"></div>
+            </div>
+            <div id="elem3" class="elem">
+                <img data-scroll data-scroll-speed="2" src="Mitsuha.jpg" alt="">
+                <div class="dets"></div>
+            </div>
+        </div>
+        <div id="page3">
+            <div class="child" id="child1">
+                <img src="Miki Okudera.jpg" alt="">
+            </div>
+            <div class="child" id="child2">
+                <img src="Yotsuha Miyamizu.jpg" alt="">
+            </div>
+            <div class="child" id="child3">
+                <img src="Hitoha Miyamizu.jpg" alt="">
+            </div>
+            <div class="child" id="child4">
+                <img src="Toshiki Miyamizu.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</html>
